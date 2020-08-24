@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../navBar.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Delta State Covid-19 Update</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawVisualization);
+
+      function drawVisualization() {
+        // Some raw data (not necessarily accurate)
+        var data = google.visualization.arrayToDataTable([
+          ['LGAs', 'achieved', 'testing gap'],
+          ['Aniocha North',  2,      98],
+          ['Aniocha South',  3,      97],
+          ['Bomadi',  3,      97],
+          ['Burutu',  0,      100],
+          ['Ethiope East',  5,      95],
+          ['Ethiope West',  10,      90],
+          ['Ika North East',  3,      97],
+          ['Ika South',  5,      95],
+          ['Isoko North',  1,      99],
+          ['Isoko South',  3,      97],
+          ['Ndokwa East',  1,      99],
+          ['Ndokwa West',  5,      95],
+          ['Okpe',  5,      95],
+          ['Oshimili North',  25,      75],
+          ['Oshimili South',  48,      52],
+          ['Patani',  0,      100],
+          ['Sapele',  15,      85],
+          ['Udu',  10,      90],
+          ['Ugheli North',  8,      92],
+          ['Ugheli South',  5,      95],
+          ['Ukwuani',  5,      95],
+          ['Uvwie',  15,      85],
+          ['Warri North',  0,      100],
+          ['Warri South',  10,      90],
+          ['Warri South West',  0,      100]
+
+         ]);
+      
+
+        var options = {
+          title : 'COVID-19 Testing Barometer: Achievement of Africa CDC Testing Target in LGAs in Delta State',
+          vAxis: {title: 'Percentage %'},
+          hAxis: {title: 'LGAs'},
+          seriesType: 'bars',
+          isStacked: true,
+          chartArea: {
+            backgroundColor: {
+              fill: 'steelblue',
+              fillOpacity: 0.1
+            },
+          },
+          series: {3: {type: 'line'}}        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+    
+  </head>
+</head>
+<body id="myID">
+  <main-header></main-header>
+                        <!-- Page 6-->
+  <div class="container">   
+    <div class="container-fluid style table-responsive">
+    <img src="../images/nigeria.JPG" alt="nigeria logo">
+        <img src="../images/delta_logo.png" width="65" height="65" alt="delta logo">
+      <h5 style="color: black;">TABLE I: TOTAL NUMBER OF CASES MANAGED IN TREATMENT CENTERS IN DELTA STATE AS AT 25/07/2020</h5>
+        <table class="table table-bordered">
+            <thead class="head">
+              <tr>
+                <th scope="col">SN</th>
+                <th scope="col">Treament Centre</th>
+                <th scope="col">Total Confirmed Cases Managed</th>
+                <th scope="col">Active Confirmed Cases Being Managed</th>
+                <th scope="col">Total Number Discharged/Recovered</th>
+                <th scope="col">Total Deaths</th>
+                <th scope="col">Transfered to Home Care (New)</th>
+                <th scope="col">Available Beds</th>
+                <th scope="col">Average Length of Stay (Days)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="row1">1</th>
+                <td id="asaba">Asaba Specialist Hospital, Asaba</td>
+                <td class="td1">184</td>
+                <td class="td2">2</td>
+                <td id="id1">170</td>
+                <td id="id7">12</td>
+                <td id="myID1">0</td>
+                <td id="myID2">17</td>
+                <td id="myID3">9</td>
+             </tr>
+
+              <tr>
+                <th scope="row" class="row2">2</th>
+                <td id="federal">Federal Medical Center, Asaba</td>
+                <td class="td3">58</td>
+                <td class="td4">0</td>
+                <td id="id2">50(1new)</td>
+                <td id="id8">8</td>
+                <td id="myID4">0</td>
+                <td id="myID5">12</td>
+                <td id="myID6">12</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="row3">3</th>
+                <td id="delsuth">Delta State University Teaching Hospital, Oghara (DELSUTH)</td>
+                <td class="td5">54</td>
+                <td class="td6">4</td>
+                <td id="id3">44</td>
+                <td id="id9">6</td>
+                <td id="myID7">0</td>
+                <td id="myID8">12</td>
+                <td id="myID9">16</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="row4">4</th>
+                <td id="warri">Warri Central Hospital, Warri</td>
+                <td class="td7">62</td>
+                <td class="td8">1</td>
+                <td id="id4">59</td>
+                <td id="id10">2</td>
+                <td class="id1">0</td>
+                <td class="id2">13</td>
+                <td class="id3">11</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="row5">5</th>
+                <td id="care">Supervised Home Care</td>
+                <td class="td9">417</td>
+                <td class="td10">26</td>
+                <td id="id5">391</td>
+                <td id="id11">-</td>
+                <td class="id4">0</td>
+                <td class="id5">-</td>
+                <td class="id6">-</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="row6">6</th>
+                <td id="facilities">Other Facilities</td>
+                <td class="td11">684</td>
+                <td class="td12">14</td>
+                <td id="id6">656</td>
+                <td id="id12">14</td>
+                <td class="id7">0</td>
+                <td class="id8">-</td>
+                <td class="id9">-</td>
+              </tr>
+
+              <tr class="total">
+                <th scope="row"></th>
+                <td>Total</td>
+                <td>1459</td>
+                <td>47</td>
+                <td>1370</td>
+                <td>42</td>
+                <td>0</td>
+                <td>54</td>
+                <td>12</td>
+              </tr>
+
+            </tbody>
+          </table>
+
+       
+      <div class="container style6">
+          <div class="row row-cols-4">
+              <div class="col">
+                <div class="txt1">
+                    <p> Previous number of cases <br> yet to be assigned to care</p>
+                    <p id="num">29</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="txt2">
+                  <p>Current number of cases <br> yet to be assigned to care</p>
+                  <p id="num2">43</p>
+                </div>
+              </div>
+              <div class="col">
+                <div>
+              
+                </div>
+            
+              </div>
+              <div class="col">
+                <div>
+                  <p id="para">Note: Average length of hospital stay includes deaths that occured within 24 - 48 hours of admission</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+  </div>              
+                
+                <!-- Page 7 -->
+  <div class="container style2">                
+    
+    <div class="container-fluid table-responsive">
+        
+        <h5 style="color: black;">TABLE II: LGA BREAKDOWN SUMMARY</h5>
+      
+         
+        <table class="table table-bordered">
+            <thead class="head2">
+              <tr>
+                <th scope="col">SN</th>
+                <th scope="col">Local Government Area</th>
+                <th scope="col">Total Suspect Cases Investigated</th>
+                <th scope="col">Total Confirmed Cases</th>
+                <th scope="col">Active Cases</th>
+                <th scope="col">Total Deaths</th>
+                <th scope="col">Total Recovered/Discovered</th>
+                <th scope="col">Date since Last Reported</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="aniocha">1</th>
+                <td class="control1">Aniocha North</td>
+                <td class="control2">15</td>
+                <td class="control3">3</td>
+                <td class="control4">Nil</td>
+                <td class="control5">Nil</td>
+                <td class="control6">3</td>
+                <td class="control7">18</td>
+             </tr>
+
+              <tr>
+                <th scope="row" class="aniocha2">2</th>
+                <td class="south">Aniocha South</td>
+                <td class="control8">45</td>
+                <td class="control9">13</td>
+                <td class="control10">1</td>
+                <td class="control11">Nil</td>
+                <td class="control12">12</td>
+                <td class="control13">6</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="bomadi">3</th>
+                <td class="bomadi1">Bomadi</td>
+                <td class="bomadi2">21</td>
+                <td class="bomadi3">13</td>
+                <td class="bomadi4">Nil</td>
+                <td class="bomadi5">Nil</td>
+                <td class="bomadi6">13</td>
+                <td class="bomadi7">25</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="burutu">4</th>
+                <td class="burutu1">Burutu</td>
+                <td class="burutu2">1</td>
+                <td class="burutu3">1</td>
+                <td class="burutu4">Nil</td>
+                <td class="burutu5">Nil</td>
+                <td class="burutu6">1</td>
+                <td class="burutu7">30</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="ethiope">5</th>
+                <td class="ethiope1">Ethiope East</td>
+                <td class="ethiope2">71</td>
+                <td class="ethiope3">16</td>
+                <td class="ethiope4">Nil</td>
+                <td class="ethiope5">3</td>
+                <td class="ethiope6">13</td>
+                <td class="ethiope7">16</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="west">6</th>
+                <td class="west1">Ethiope West</td>
+                <td class="west2">265</td>
+                <td class="west3">64</td>
+                <td class="west4">5</td>
+                <td class="west5">Nil</td>
+                <td class="west6">59</td>
+                <td class="west7">3</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="ika">7</th>
+                <td class="ika1">Ika North East</td>
+                <td class="ika2">70</td>
+                <td class="ika3">23</td>
+                <td class="ika4">Nil</td>
+                <td class="ika5">2</td>
+                <td class="ika6">21</td>
+                <td class="ika7">15</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="south">8</th>
+                <td class="south1">Ika South</td>
+                <td class="south2">108</td>
+                <td class="south3">29(4 new)</td>
+                <td class="south4">6</td>
+                <td class="south5">1</td>
+                <td class="south6">22</td>
+                <td class="south7">0</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="isoko">9</th>
+                <td class="isoko1">Isoko North</td>
+                <td class="isoko2">15</td>
+                <td class="isoko3">2</td>
+                <td class="isoko4">Nil</td>
+                <td class="isoko5">Nil</td>
+                <td class="isoko6">2</td>
+                <td class="isoko7">25</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="isok">10</th>
+                <td class="isok1">Isoko South</td>
+                <td class="isok2">66</td>
+                <td class="isok3">9</td>
+                <td class="isok4">2</td>
+                <td class="isok5">Nil</td>
+                <td class="isok6">7</td>
+                <td class="isok7">3</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="ndokwa">11</th>
+                <td class="ndokwa1">Ndokwa East</td>
+                <td class="ndokwa2">8</td>
+                <td class="ndokwa3">1</td>
+                <td class="ndokwa4">Nil</td>
+                <td class="ndokwa5">Nil</td>
+                <td class="ndokwa6">1</td>
+                <td class="ndokwa7">29</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="ndo">12</th>
+                <td class="ndo1">Ndokwa West</td>
+                <td class="ndo2">116</td>
+                <td class="ndo3">20</td>
+                <td class="ndo4">2</td>
+                <td class="ndo5">2</td>
+                <td class="ndo6">16</td>
+                <td class="ndo7">8</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="okpe">13</th>
+                <td class="okpe1">Okpe</td>
+                <td class="okpe2">127</td>
+                <td class="okpe3">41</td>
+                <td class="okpe4">3</td>
+                <td class="okpe5">Nil</td>
+                <td class="okpe6">38</td>
+                <td class="okpe7">1</td>
+              </tr>
+
+            </tbody>
+          </table>
+    </div>
+  </div>
+              
+                <!-- Page 8 -->
+<div class="container style3">               
+    <h5 style="color: black;">TABLE II: LGA BREAKDOWN SUMMARY (CONT.)</h5>
+  
+    
+    <div class="container-fluid table-responsive">
+        <table class="table table-bordered">
+            <thead class="head3">
+              <tr>
+                <th scope="col">SN</th>
+                <th scope="col">Local Government Area</th>
+                <th scope="col">Total Suspect Cases Investigated</th>
+                <th scope="col">Total Confirmed Cases</th>
+                <th scope="col">Active Cases</th>
+                <th scope="col">Total Deaths</th>
+                <th scope="col">Total Recovered/Discovered</th>
+                <th scope="col">Date since Last Reported</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="oshimili">14</th>
+                <td class="oshimili1">Oshimili North</td>
+                <td class="oshimili2">474</td>
+                <td class="oshimili3">136 (4 new)</td>
+                <td class="oshimili4">16</td>
+                <td class="oshimili5">2</td>
+                <td class="oshimili6">118</td>
+                <td class="oshimili7">0</td>
+             </tr>
+
+              <tr>
+                <th scope="row" class="oshi">15</th>
+                <td class="oshi1">Oshimili South</td>
+                <td class="oshi2">1862</td>
+                <td class="oshi3">452 (5 new)</td>
+                <td class="oshi4">33</td>
+                <td class="oshi5">9</td>
+                <td class="oshi6">410</td>
+                <td class="oshi7">0</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="patani">16</th>
+                <td class="patani1">Patani</td>
+                <td class="patani2">3</td>
+                <td class="patani3">1</td>
+                <td class="patani4">1</td>
+                <td class="patani5">Nil</td>
+                <td class="patani6">Nil</td>
+                <td class="patani7">6</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="sapele">17</th>
+                <td class="sapele1">Sapele</td>
+                <td class="sapele2">344</td>
+                <td class="sapele3">112</td>
+                <td class="sapele4">2</td>
+                <td class="sapele5">6</td>
+                <td class="sapele6">104</td>
+                <td class="sapele7">3</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="udu">18</th>
+                <td class="udu1">Udu</td>
+                <td class="udu2">179</td>
+                <td class="udu3">54</td>
+                <td class="udu4">3</td>
+                <td class="udu5">1</td>
+                <td class="udu6">50</td>
+                <td class="udu7">3</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="ugheli">19</th>
+                <td class="ugheli1">Ugheli North</td>
+                <td class="ugheli2">341</td>
+                <td class="ugheli3">132</td>
+                <td class="ugheli4">2</td>
+                <td class="ugheli5">2</td>
+                <td class="ugheli6">128</td>
+                <td class="ugheli7">2</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="ugh">20</th>
+                <td class="ugh1">Ugheli South</td>
+                <td class="ugh2">47</td>
+                <td class="ugh3">7</td>
+                <td class="ugh4">Nil</td>
+                <td class="ugh5">1</td>
+                <td class="ugh6">6</td>
+                <td class="ugh7">12</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="ukwani">21</th>
+                <td class="ukwani1">Ukwani</td>
+                <td class="ukwani2">21</td>
+                <td class="ukwani3">7</td>
+                <td class="ukwani4">Nil</td>
+                <td class="ukwani5">2</td>
+                <td class="ukwani6">5</td>
+                <td class="ukwani7">21</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="uvwie">22</th>
+                <td class="uvwie1">Uvwie</td>
+                <td class="uvwie2">442</td>
+                <td class="uvwie3">176</td>
+                <td class="uvwie4">7</td>
+                <td class="uvwie5">9</td>
+                <td class="uvwie6">160</td>
+                <td class="uvwie7">2</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="warri">23</th>
+                <td class="warri1">Warri North</td>
+                <td class="warri2">5</td>
+                <td class="warri3"></td>
+                <td class="warri4"></td>
+                <td class="warri5"></td>
+                <td class="warri6"></td>
+                <td class="warri7">N/A</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="war">24</th>
+                <td class="war1">Warri South</td>
+                <td class="war2">516</td>
+                <td class="war3">190 (3 new)</td>
+                <td class="war4">7</td>
+                <td class="war5">2</td>
+                <td class="war6">181 (1 new)</td>
+                <td class="war7">0</td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="warr">25</th>
+                <td class="warr1">Warri South West</td>
+                <td class="warr2">4</td>
+                <td class="warr3"></td>
+                <td class="warr4"></td>
+                <td class="warr5"></td>
+                <td class="warr6"></td>
+                <td class="warr7">N/A</td>
+              </tr>
+
+              <tr class="total2">
+                <th scope="row"></th>
+                <td>Total</td>
+                <td>5166</td>
+                <td>1502 (16 new)</td>
+                <td>90</td>
+                <td>42</td>
+                <td>1370 (1 new)</td>
+                <td>0</td>
+              </tr>
+
+            </tbody>
+          </table>
+    </div>
+  </div>
+
+                         <!--Page 9-->
+  <div class="container style4">
+    <div class="container-fluid table-responsive">
+      <h5 style="color: black;">Local Government Area Breakdown of COVID-19 Tests Done </h5>
+      
+      <table class="table table-bordered">
+        <thead id="headings">
+          <tr>
+            <th scope="col">LGA</th>
+            <th scope="col">Total Persons Tested</th>
+            <th scope="col">Tests per 100,000 Population</th>
+          </tr>
+        </thead>
+
+        <tbody class="right">
+          <tr>
+            <td class="anni">Aniocha North</td>
+            <td class="anni">15</td>
+            <td class="box">10</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Aniocha South</td>
+            <td class="anni">45</td>
+            <td class="box">23</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Bomadi</td>
+            <td class="anni">21</td>
+            <td class="box">17</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Burutu</td>
+            <td class="anni">1</td>
+            <td class="box">0</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Ethiope East</td>
+            <td class="anni">71</td>
+            <td class="box">25</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Ethiope West</td>
+            <td class="anni">265</td>
+            <td class="box">93</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Ika North East</td>
+            <td class="anni">70</td>
+            <td class="box">27</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Ika South</td>
+            <td class="anni">108</td>
+            <td class="box">46</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Isoko North</td>
+            <td class="anni">15</td>
+            <td class="box">7</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Isoko South</td>
+            <td class="anni">66</td>
+            <td class="box">20</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Ndokwa East</td>
+            <td class="anni">8</td>
+            <td class="box">6</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Ndokwa West</td>
+            <td class="anni">116</td>
+            <td class="box">55</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Okpe</td>
+            <td class="anni">127</td>
+            <td class="box">71</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Oshimili North</td>
+            <td class="anni">474</td>
+            <td class="box">285</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Oshimili South</td>
+            <td class="anni">1862</td>
+            <td class="box">885</td>
+          </tr>
+          <tr>
+
+            <td class="box">Patani</td>
+            <td class="anni">3</td>
+            <td class="box">3</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Sapele</td>
+            <td class="anni">344</td>
+            <td class="box">141</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Udu</td>
+            <td class="anni">179</td>
+            <td class="box">90</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Ugheli North</td>
+            <td class="anni">341</td>
+            <td class="box">76</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Ugheli South</td>
+            <td class="anni">47</td>
+            <td class="box">16</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Ukwuani</td>
+            <td class="anni">21</td>
+            <td class="box">13</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Uvwie</td>
+            <td class="anni">442</td>
+            <td class="box">167</td>
+          </tr>
+
+          <tr>
+            <td class="box">Warri North</td>
+            <td class="anni">5</td>
+            <td class="box">3</td>
+          </tr>
+
+          <tr>
+            <td class="anni">Warri South</td>
+            <td class="anni">516</td>
+            <td class="box">118</td>
+          </tr>
+
+          <tr>
+            <td class="box">Warri South West</td>
+            <td class="anni">4</td>
+            <td class="box">2</td>
+          </tr>
+
+          <tr class="change">
+            <td class="dst">DELTA STATE</td>
+            <td class="dst1">5166</td>
+            <td>90</td>
+          </tr>
+        </tbody>
+      </table>
+
+     <!-- <footer>
+        <h5>DELTA STATE-HOTLINES: 08031230480, 08031230481, 08031230528, 08031230529 </h5>
+        <h6>Twitter/Facebook: @deltasmoh/Deltasmoh Asaba</h6>
+      </footer> -->
+    </div>
+
+
+  </div>
+                       <!-- Page 10-->
+  <div class="container style5">                     
+    <div class="container-fluid"> 
+       <div id="chart_div" style="width: 1000px; height: 700px;" ></div>
+       <footer>
+          <h5>DELTA STATE-HOTLINES: 08031230480, 08031230481, 08031230528, 08031230529 </h5>
+          <h6>Twitter/Facebook: @deltasmoh/Deltasmoh Asaba</h6>
+       </footer>
+   </div>
+  </div> 
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+     <script src="./mainNav.js"></script>
+</body>
+</html>

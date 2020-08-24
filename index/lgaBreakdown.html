@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Delta State Ministry of Health Situation Report</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/style2.css" />
+    <link rel="stylesheet" href="../navBar.css" />
+  </head>
+  <body>
+    <main-header> </main-header>
+    <div class="wrappere">
+      <h1>
+        Corona Virus Disease 2019 <br /><span style="font-size: 30px;"
+          >(Delta State Ministry of Health Situation Report)</span
+        >
+      </h1>
+      <h2>
+        Local Government Area Breakdown of COVID-19 Tests Done
+      </h2>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">LGA</th>
+              <th scope="col">Total Persons tested</th>
+              <th scope="col">Tests per 100,000 Population</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Aniocha North</td>
+              <td>15</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Aniocha South</td>
+              <td>45</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Bomadi</td>
+              <td>21</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Burutu</td>
+              <td>1</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Ethiope East</td>
+              <td>71</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Ethiope West</td>
+              <td>265</td>
+              <td>93</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Ika North East</td>
+              <td>70</td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>Ika South</td>
+              <td>108</td>
+              <td>46</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>Isoko North</td>
+              <td>15</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>Isoko South</td>
+              <td>66</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th scope="row">11</th>
+              <td>Ndokwa East</td>
+              <td>8</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <th scope="row">12</th>
+              <td>Ndokwa West</td>
+              <td>116</td>
+              <td>55</td>
+            </tr>
+            <tr>
+              <th scope="row">13</th>
+              <td>Okpe</td>
+              <td>127</td>
+              <td>71</td>
+            </tr>
+            <tr>
+              <th scope="row">14</th>
+              <td>Oshimili North</td>
+              <td>474</td>
+              <td>285</td>
+            </tr>
+            <tr>
+              <th scope="row">15</th>
+              <td>Oshimili South</td>
+              <td>1862</td>
+              <td>885</td>
+            </tr>
+            <tr>
+              <th scope="row">16</th>
+              <td>Patani</td>
+              <td>3</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th scope="row">17</th>
+              <td>Sapele</td>
+              <td>344</td>
+              <td>141</td>
+            </tr>
+            <tr>
+              <th scope="row">18</th>
+              <td>Udu</td>
+              <td>179</td>
+              <td>90</td>
+            </tr>
+            <tr>
+              <th scope="row">19</th>
+              <td>Ughelli North</td>
+              <td>341</td>
+              <td>76</td>
+            </tr>
+            <tr>
+              <th scope="row">20</th>
+              <td>Ughelli South</td>
+              <td>47</td>
+              <td>16</td>
+            </tr>
+            <tr>
+              <th scope="row">21</th>
+              <td>Ukwuani</td>
+              <td>21</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <th scope="row">22</th>
+              <td>Uvwie</td>
+              <td>442</td>
+              <td>167</td>
+            </tr>
+            <tr>
+              <th scope="row">23</th>
+              <td>Warri North</td>
+              <td>5</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th scope="row">24</th>
+              <td>Warri South</td>
+              <td>516</td>
+              <td>118</td>
+            </tr>
+            <tr>
+              <th scope="row">25</th>
+              <td>Warri South West</td>
+              <td>4</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td style="font-weight: bold;">DELTA STATE</td>
+              <td>5166</td>
+              <td>90</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="container" style="width: 100%; height: 80vh; padding: 50px;">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+    <!-- footer setion -->
+    <main-footer></main-footer>
+
+    <script src="../javascripts/navBar.js"></script>
+    <script src="../index/mainNav.js"></script>
+    <script src="../javascripts/lgaBreakdown.js"></script>
+  </body>
+</html>

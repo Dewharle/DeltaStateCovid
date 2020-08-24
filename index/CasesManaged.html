@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Delta State Ministry of Health Situation Report</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/style2.css" />
+    <link rel="stylesheet" href="../navBar.css" />
+  </head>
+  <body>
+    <main-header> </main-header>
+    <div class="wrappere">
+      <h1>
+        Corona Virus Disease 2019 <br /><span style="font-size: 30px;"
+          >(Delta State Ministry of Health Situation Report)</span
+        >
+      </h1>
+
+      <h2>
+        CASE MANAGEMENT REPORT
+      </h2>
+      <h3>Update on Confirmed Cases Managed in Delta State</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Treatment Centres</th>
+              <th scope="col">Total Confirmed Cases Managed</th>
+              <th scope="col">Confirmed Cases Currently being Managed</th>
+              <th scope="col">Total Discharged</th>
+              <th scope="col">Total Deaths</th>
+              <th scope="col">Number Transferred to Home Care (New)</th>
+              <th scope="col">Available Bed(s)</th>
+              <th scope="col">Average Length of Stay - last 10 discharge</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                Asaba Specialist Hospital, Asaba
+              </th>
+            </tr>
+            <tr>
+              <td scope="row">Treatment centre</td>
+              <td>184</td>
+              <td>2</td>
+              <td>170</td>
+              <td>12</td>
+              <td>0</td>
+              <td>17</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <td scope="row">Home care</td>
+              <td>100</td>
+              <td>4</td>
+              <td>96</td>
+              <td>0</td>
+              <td>0</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Federal Medical Centre, Asaba</th>
+            </tr>
+            <tr>
+              <td scope="row">Treatment centre</td>
+              <td>58</td>
+              <td>0</td>
+              <td>50(1 new)</td>
+              <td>8</td>
+              <td>0</td>
+              <td>12</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td scope="row">Home care</td>
+              <td>110</td>
+              <td>13</td>
+              <td>97</td>
+              <td>0</td>
+              <td>0</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">
+                Delta State University Teaching Hospital, Oghara
+              </th>
+            </tr>
+            <tr>
+              <td scope="row">Treatment centre</td>
+              <td>54</td>
+              <td>4</td>
+              <td>44</td>
+              <td>6</td>
+              <td>0</td>
+              <td>12</td>
+              <td>16</td>
+            </tr>
+            <tr>
+              <td scope="row">Home care</td>
+              <td>61</td>
+              <td>2</td>
+              <td>59</td>
+              <td>0</td>
+              <td>0</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Central Hospital, Warri</th>
+            </tr>
+            <tr>
+              <td scope="row">Treatment centre</td>
+              <td>62</td>
+              <td>1</td>
+              <td>59</td>
+              <td>2</td>
+              <td>0</td>
+              <td>13</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td scope="row">Home care</td>
+              <td>146</td>
+              <td>7</td>
+              <td>139</td>
+              <td>0</td>
+              <td>0</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Total</th>
+              <td>1459</td>
+              <td>47</td>
+              <td>1370</td>
+              <td>42</td>
+              <td>0</td>
+              <td>54</td>
+              <td>12</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="container-fluid" style="padding: 50px;">
+        <canvas id="CaseManagement" width="1600" height="900"></canvas>
+      </div>
+      <div class="row">
+        <div class="col-lg-6" style="padding: 50px;">
+          <p
+            style="
+              border: 3px;
+              border-style: solid;
+              border-color: #b8c7f4;
+              padding: 1em;
+            "
+          >
+            Previous number of cases yet to be assigned to care<br />
+            <span>29</span>
+          </p>
+        </div>
+        <div class="col-lg-6" style="padding: 50px;">
+          <p
+            style="
+              border: 3px;
+              border-style: solid;
+              border-color: #b8c7f4;
+              padding: 1em;
+            "
+          >
+            Current number of cases yet to be assigned to care<br />
+            <span>43</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- footer setion -->
+    <main-footer></main-footer>
+    <!-- <script src="./js/navBar.js"></script> -->
+    <script src="../index/mainNav.js"></script>
+    <script src="../javascripts/caseManaged.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAWesome-->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="navBar.css" />
+  </head>
+
+  <body>
+    <main-header> </main-header>
+    <!-- <nav>
+            <div>
+                <div class="nav-div"> 
+                    <a class="nav-link" href="./index.html">Home</a>
+                </div>
+                <div class="nav-div">
+                    <a class="nav-link" href="./file.html">Covid Update</a>
+                </div>
+                <div id="subMenu" class="dropdown">
+                    <div class="dropdownMenu nav-div">Performance Barometer
+                    </div>
+                    <div id="menuList" class="menuList">
+                        <a href=""> Item 1 </a>
+                        <a href=""> Item 1 </a>
+                        <a href=""> Item 1 </a>
+                    </div>
+                </div>
+                <div id="subMenu2" class="dropdown">
+                    <div class="dropdownMenu nav-div">Covid
+                    </div>
+                    <div id="menuList2" class="menuList">
+                        <a class="active btn" href="./cases_snapshot.html">Case Snapshot </a>
+                        <a class="btn" href="./hotline_education.html"> Hotline Education </a>
+                        <a class="btn" href="./laboratory_tests.html"> Laboratory Tests </a>
+                        <a class="btn" href="./summary_case.html"> Summary Case </a>
+                    </div>
+                </div>
+            </div>
+        </nav> -->
+
+    <section class="header py-3">
+      <!-- Nav tabs -->
+      <div class="container">
+        <div class="row">
+          <div class="col-8 nav-left">
+            <h3>Coronavirus Disease 2019 (Covid-19)</h3>
+            <h4>Situation Report-115</h4>
+          </div>
+          <div class="col-3 nav-right">
+            <div class="row">
+              <img
+                src="images/naija_logo.png"
+                style="width: 50px; height: 50px; margin-right: 2px"
+                alt=""
+                srcset=""
+              />
+              <img
+                src="images/delta_logo.png"
+                style="width: 50px; height: 50px; margin-right: 1px"
+                alt=""
+                srcset=""
+              />
+              <p class="text-light gvt">Delta State Government</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subheader">
+      <div class="container">
+        <div class="row">
+          <p>Data as received by Delta State Ministry of Health 20:00 NST 30</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="main py-3">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 body-left">
+            <h3 class="primary">Background</h3>
+            <ul>
+              <li>
+                On 07 April, 2020, Delta State recorded the first confirmed case
+                of COVID-19
+              </li>
+              <li>
+                The index case was a male aged 50 years with travel history to
+                Canada (date of return 06 Feb, 2020), and then out-of-state
+                travel to Abuja (12-13 Mar, 2020)
+              </li>
+              <li>
+                Till date, 1502 cases have been confirmed. 1370 cases have been
+                discharged 42 deaths recorded in Delta State
+              </li>
+              <li>
+                A multi-sectoral statewide emergency operation team has been
+                activated and coordinates the states response activities
+              </li>
+              <li>
+                The following is an epidemiological report on COVID-19 in the
+                State. It is the 115 th daily report since the index case in the
+                State and provides update on the situation with the epidemic and
+                outlines key activities undertaken on 30 th July, 2020
+              </li>
+            </ul>
+
+            <h4 class="primary">
+              Figure 1. Density Map of Confirmed Cases in the 25 LGAs
+            </h4>
+            <img src="images/covid.png" alt="" />
+          </div>
+          <div
+            class="col-lg-3 col-md-12 col-sm-12 col-xs-12 body-right text-center"
+          >
+            <p class="situation text-info">SITUATION IN NUMBERS</p>
+            <div class="situation-data">
+              <p class="text-info">Total Number of Confirmed Cases</p>
+              <p class="text-danger">1502</p>
+            </div>
+            <div class="situation-data">
+              <p class="text-info">
+                Total Number of Suspect Cases Investigated
+              </p>
+              <p class="text-danger">5166</p>
+            </div>
+            <div class="situation-data">
+              <p class="text-info">Total Number of Probable Cases</p>
+              <p class="text-danger">1502</p>
+            </div>
+            <div class="situation-data">
+              <p class="text-info">Total Number of Confirmed Cases</p>
+              <p class="text-danger">0</p>
+            </div>
+            <div class="situation-data">
+              <p class="text-info">Total Number of Contacts Under Follow-up</p>
+              <p class="text-danger">411</p>
+            </div>
+            <div class="situation-data">
+              <p class="text-info">Total Number of Laboratory Tests Done</p>
+              <p class="text-danger">6602</p>
+            </div>
+            <div class="situation-data">
+              <p class="text-info">Case Fatality Rate</p>
+              <p class="text-danger">2.8%</p>
+            </div>
+            <div class="situation-data">
+              <p class="text-info">
+                Total Number of Health Workers Infected/p>
+              </p>
+
+              <p class="text-danger">130</p>
+            </div>
+            <div class="situation-data">
+              <p class="text-info">Bed Occupancy for COVID-19 Treatment</p>
+              <p class="text-danger">14%</p>
+            </div>
+            <div class="situation-data text-center">
+              <p class="text-info">Gender Distribution of Confirmed Cases</p>
+              <div class="row">
+                <div class="col-6">
+                  <div class="male">
+                    <i class="fa fa-male fa-lg" aria-hidden="true"></i>
+                    <p class="text-danger">66%</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="female">
+                    <i class="fa fa-female fa-lg" aria-hidden="true"></i>
+                    <p class="text-danger">34%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="primary">HIGHLIGHTS FROM PILLARS/OPERATIONAL UNITS</h3>
+          <div class="sections mb-4">
+            <h5 class="primary">Surveillance</h5>
+            <ul>
+              <li>Investigated 98 new suspect cases in 7 LGAs</li>
+              <li>Confirmed 16 new COVID-19 cases in 4 LGAs</li>
+              <li>Identified and linelisted 20 new contacts</li>
+            </ul>
+          </div>
+          <div class="sections mb-4">
+            <h5 class="primary">Ambulance and Transport Services</h5>
+            <ul>
+              <li>
+                Facilitated transport of samples from 6 Health Facilities and
+                home isolation in Asaba to ASH, Asaba
+              </li>
+            </ul>
+          </div>
+          <div class="sections mb-4">
+            <h5 class="primary">Call Centre</h5>
+            <ul>
+              <li>
+                Received a total of 11 calls via the COVID-19 Hotlines, 1 of
+                these calls was on case reports and 11 were on education and
+                sensitization
+              </li>
+              <li>
+                Successfully contacted all 3 new cases reported on 29 th July.
+              </li>
+            </ul>
+          </div>
+          <div class="sections mb-3">
+            <h5 class="primary">Case Management</h5>
+            <ul>
+              <li>
+                A total of 7 COVID-19 patients are currently being managed in 2
+                treatment centres, while 40 others are receiving home based
+                care.
+              </li>
+              <li>Discharged 1 COVID-19 patients from FMC Treatment Centre.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="surv-report mt-5">
+          <h3 class="primary">SURVEILLANCE REPORT</h3>
+          <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+              <div class="graphs">
+                <h5 class="primary">
+                  Figure 2. Epidemic Curve of Confirmed COVID-19 cases and
+                  Deaths in Delta State
+                </h5>
+                <div class="main">
+                  <div class="card">
+                    <div class="card-body">
+                      <canvas id="epidemic_chart"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-12 col-sm-12 col-xs-12 text-center m-4 p-4"
+            >
+              <div class="row">
+                <div
+                  class="case-stats col-lg-12 col-md-3 col-sm-4 col-xs-4 p-4 m-3"
+                >
+                  <p>Doubling Time</p>
+                  <p class="text-danger">9 Days</p>
+                </div>
+                <div
+                  class="case-stats col-lg-12 col-md-3 col-sm-4 col-xs-4 p-4 m-3"
+                >
+                  <p>Average Daily</p>
+                  <p>Confirmed Cases</p>
+                  <p>(last 7 days)</p>
+                  <p class="text-danger">7 cases</p>
+                </div>
+                <div
+                  class="case-stats col-lg-12 col-md-3 col-sm-4 col-xs-4 p-4 m-3"
+                >
+                  <p>Test Positivity</p>
+                  <p>Rate (last 7 days)</p>
+                  <p class="text-danger">11%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="graphs">
+            <h5 class="primary">
+              Figure 3. Age by Gender Distribution of Confirmed Cases
+            </h5>
+            <div class="main">
+              <div class="card">
+                <div class="card-body">
+                  <canvas id="barchart_age_distribution"></canvas>
+                </div>
+              </div>
+              <!-- <svg id="barchart_age_distribution" style="width: 960px; height: 800px;"></svg> -->
+            </div>
+          </div>
+          <div class="table my-5">
+            <h5 class="primary">
+              Table 1: Confirmed Cases Weekly Growth Rate (%)
+            </h5>
+            <div class="table-responsive">
+              <table class="table table-bordered table-hover">
+                <thead class="bg-primary">
+                  <tr>
+                    <th></th>
+                    <th>Week 7 18-24 May</th>
+                    <th>Week 8 25-31 May</th>
+                    <th>Week 9 1-7 Jun</th>
+                    <th>Week 10 8-14 Jun</th>
+                    <th>Week 11 15-21 Jun</th>
+                    <th>Week 12 22-28 Jun</th>
+                    <th>Week 13 29-5 Jul</th>
+                    <th>Week 14 6-12 Jul</th>
+                    <th>Week 15 13-19 Jul</th>
+                    <th>Week 16 20-26 Jul</th>
+                    <th>Week 17 27-2 Aug</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>New Confirmed Case(s)</td>
+                    <td>12</td>
+                    <td>44</td>
+                    <td>65</td>
+                    <td>119</td>
+                    <td>234</td>
+                    <td>411</td>
+                    <td>306</td>
+                    <td>141</td>
+                    <td>64</td>
+                    <td>41</td>
+                    <td>38</td>
+                  </tr>
+                  <tr>
+                    <td>Cumulative Confirmed cases</td>
+                    <td>39</td>
+                    <td>83</td>
+                    <td>148</td>
+                    <td>267</td>
+                    <td>501</td>
+                    <td>912</td>
+                    <td>1218</td>
+                    <td>1359</td>
+                    <td>1423</td>
+                    <td>1464</td>
+                    <td>1502</td>
+                  </tr>
+                  <tr>
+                    <td>Growth Rate (%)</td>
+                    <td>44%</td>
+                    <td>113%</td>
+                    <td>63%</td>
+                    <td>80%</td>
+                    <td>88%</td>
+                    <td>82%</td>
+                    <td>34%</td>
+                    <td>12%</td>
+                    <td>5%</td>
+                    <td>3%</td>
+                    <td>3%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="graphs">
+            <div class="row">
+              <h5 class="primary">
+                Figure 4: Update on Calls Received on the COVID-19 Hotlines
+              </h5>
+              <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <div id="main">
+                  <canvas id="call_update"></canvas>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-12 col-sm-12 col-xs-12 text-center m-4 p-4"
+              >
+                <div class="row">
+                  <div
+                    class="case-stats col-lg-12 col-md-3 col-sm-4 col-xs-4 p-4 m-3"
+                  >
+                    <p class="text-light">Average Daily Calls (last 7 days)</p>
+                    <p class="text-danger">18</p>
+                  </div>
+                  <div
+                    class="case-stats col-lg-12 col-md-3 col-sm-4 col-xs-4 p-4 m-3"
+                  >
+                    <p class="text-light">Average Daily Calls on</p>
+                    <p class="text-light">Case Reports (Last 7 days)</p>
+                    <p class="text-danger">1</p>
+                  </div>
+                  <div
+                    class="case-stats col-lg-12 col-md-3 col-sm-4 col-xs-4 p-4 m-3"
+                  >
+                    <p class="text-light">Average Daily Calls on</p>
+                    <p class="text-light">Sensitization (last 7 days)</p>
+                    <p class="text-danger">17</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="graphs">
+            <h5 class="primary">
+              Figure 5: Update on Contacts of Confirmed Cases Traced in Delta
+              State
+            </h5>
+            <div class="row text-center">
+              <div class="col-lg-2 col-md-2 col-sm-5 col-xs-5 case-stats p-4">
+                <p class="text-light">Total Contacts Identified</p>
+                <p class="text-danger">2023</p>
+              </div>
+              <div class="space">
+                <div class="space-between"></div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-sm-5 col-xs-5 case-stats p-4">
+                <p class="text-light">Total contacts linelisted</p>
+                <p class="text-danger">2010</p>
+              </div>
+              <div class="space">
+                <div class="space-between"></div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-sm-5 col-xs-5 case-stats p-4">
+                <p class="text-light">Total Contacts under follow-up</p>
+                <p class="text-danger">411</p>
+              </div>
+              <div class="space">
+                <div class="space-between"></div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-sm-5 col-xs-5 case-stats p-4">
+                <p class="text-light">Total contacts exited follow-up</p>
+                <p class="text-danger">1599</p>
+              </div>
+              <div class="space">
+                <div class="space-between"></div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-sm-5 col-xs-5 case-stats p-4">
+                <p class="text-light">Average Contacts traced per Case</p>
+                <p class="text-danger">1</p>
+              </div>
+            </div>
+          </div>
+          <div class="table my-5">
+            <h5 class="primary">
+              Table 2: Local Government Area Breakdown of COVID-19 Cases,
+              Recoveries and Deaths
+            </h5>
+            <div class="table-responsive">
+              <table class="table table-bordered table-hover">
+                <thead class="bg-primary">
+                  <tr>
+                    <th>Local Government Area</th>
+                    <th>Total Suspect Cases</th>
+                    <th>Total Confirmed Cases</th>
+                    <th>Total Recovered/Discharged</th>
+                    <th>Total Deaths</th>
+                    <th>Active Cases</th>
+                    <th>Days Since Last Confirmed</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-warning">
+                    <td>Aniocha North</td>
+                    <td>15</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>11</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Aniocha South</td>
+                    <td>45</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Aniocha North</td>
+                    <td>15</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>11</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Bomadi</td>
+                    <td>21</td>
+                    <td>13</td>
+                    <td>13</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>16</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Burutu</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>23</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Ethiope East</td>
+                    <td>71</td>
+                    <td>16</td>
+                    <td>13</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>10</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Ethiope West</td>
+                    <td>265</td>
+                    <td>64</td>
+                    <td>59</td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>3</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Ika North East</td>
+                    <td>70</td>
+                    <td>23</td>
+                    <td>21</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Ika South</td>
+                    <td>108</td>
+                    <td>29 <span class="gray">(4 new)</span></td>
+                    <td>22</td>
+                    <td>1</td>
+                    <td>6</td>
+                    <td>0</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Isoko North</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>18</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Isoko South</td>
+                    <td>66</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>8</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Ndokwa East</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>22</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Ndokwa West</td>
+                    <td>116</td>
+                    <td>20</td>
+                    <td>16</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Okpe</td>
+                    <td>127</td>
+                    <td>41</td>
+                    <td>38</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>4</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Oshimli North</td>
+                    <td>474</td>
+                    <td>136 <span class="gray">(4 new)</span></td>
+                    <td>118</td>
+                    <td>2</td>
+                    <td>16</td>
+                    <td>4</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Oshimli South</td>
+                    <td>1862</td>
+                    <td>452 <span class="gray">(5 new)</span></td>
+                    <td>410</td>
+                    <td>9</td>
+                    <td>33</td>
+                    <td>0</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Patani</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>5</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Sapele</td>
+                    <td>344</td>
+                    <td>112</td>
+                    <td>104</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>7</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Udu</td>
+                    <td>179</td>
+                    <td>54</td>
+                    <td>50</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>5</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Ugheli North</td>
+                    <td>341</td>
+                    <td>132</td>
+                    <td>128</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>12</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Ugheli South</td>
+                    <td>47</td>
+                    <td>7</td>
+                    <td>6</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>9</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Ukwani</td>
+                    <td>21</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>16</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Uvwie</td>
+                    <td>442</td>
+                    <td>176</td>
+                    <td>160</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>Warri North</td>
+                    <td>15</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr class="bg-warning">
+                    <td>Warri South</td>
+                    <td>516</td>
+                    <td>190 <span class="gray">(3 new)</span></td>
+                    <td>181 <span class="gray">(1 new)</span></td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>Warri South West</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr class="bg-primary">
+                    <td class="text-white">State Total</td>
+                    <td class="text-white">5166</td>
+                    <td class="text-white">1502</td>
+                    <td class="text-white">1370</td>
+                    <td class="text-danger">42</td>
+                    <td class="text-white">90</td>
+                    <td class="text-white">0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- <script>
+        $('#navId a').click(e => {
+            e.preventDefault();
+            $(this).tab('show');
+        });
+    </script> -->
+
+    <script src="../../mainNav.js"></script>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <script>
+      var ctx = document
+        .getElementById("barchart_age_distribution")
+        .getContext("2d");
+      var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: "bar",
+
+        // The data for our dataset
+        data: {
+          labels: [
+            "0-4",
+            "5-9",
+            "10-14",
+            "15-19",
+            "20-24",
+            "25-29",
+            "30-34",
+            "35-39",
+            "40-44",
+            "45-49",
+            "50-54",
+            "55-59",
+            "60-64",
+            "65-69",
+            "70-74",
+            "75-79",
+            "80-84",
+            "85-89",
+            "90-94",
+            "95-99",
+          ],
+          datasets: [
+            {
+              label: "Females",
+              backgroundColor: "rgb(0, 99, 132)",
+              borderColor: "rgb(255, 99, 132)",
+              borderWidth: 3,
+              // hoverBackgroundColor: 'rgb(200, 0, 0)',
+              data: [
+                8,
+                9,
+                11,
+                12,
+                47,
+                67,
+                60,
+                72,
+                64,
+                50,
+                48,
+                33,
+                10,
+                11,
+                10,
+                2,
+                4,
+                4,
+                0,
+                0,
+                0,
+              ],
+            },
+            {
+              label: "Males",
+              backgroundColor: "rgb(154, 99, 132)",
+              borderColor: "rgb(255, 0, 132)",
+              borderWidth: 3,
+              data: [
+                17,
+                16,
+                11,
+                23,
+                36,
+                75,
+                105,
+                158,
+                140,
+                136,
+                86,
+                55,
+                38,
+                27,
+                15,
+                9,
+                5,
+                0,
+                0,
+                0,
+                0,
+              ],
+            },
+          ],
+        },
+
+        // Configuration options go here
+        options: {
+          tooltips: {
+            mode: "index",
+          },
+          scales: {
+            xAxes: [
+              {
+                stacked: false,
+                scaleLabel: {
+                  display: true,
+                  labelString: "No. of Confirmed cases",
+                },
+                ticks: {
+                  fontColor: "black",
+                  // fontSize: 13,
+                  // stepSize: 1,
+                  // beginAtZero: true
+                },
+              },
+            ],
+            yAxes: [
+              {
+                stacked: false,
+                scaleLabel: {
+                  display: true,
+                  labelString: "Age Group",
+                },
+                ticks: {
+                  fontColor: "black",
+                  // fontSize: 13,
+                  // stepSize: 1,
+                  // beginAtZero: true
+                },
+              },
+            ],
+          },
+          legend: {
+            labels: {
+              // This more specific font property overrides the global property
+              fontColor: "black",
+              fontSize: 13,
+            },
+          },
+        },
+      });
+    </script>
+
+    <script type="text/javascript">
+      var ctx = document.getElementById("epidemic_chart").getContext("2d");
+      var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: "bar",
+
+        // The data for our dataset
+        data: {
+          labels: [
+            "18-Mar",
+            "22-Mar",
+            "26-Mar",
+            "30-Mar",
+            "03-Apr",
+            "07-April",
+            "11-April",
+            "15-Apr",
+            "19-Apr",
+            "23-Apr",
+            "27-Apr",
+            "01-May",
+            "05-May",
+            "09-May",
+            "13-May",
+            "17-may",
+            "21-May",
+            "25-May",
+            "29-May",
+            "02-Jun",
+            "06-Jun",
+            "10-Jun",
+            "14-Jun",
+            "18-Jun",
+            "22-jun",
+            "26-Jun",
+            "30-Jun",
+            "04-Jul",
+            "08-Jul",
+            "12-Jul",
+            "16-Jul",
+            "20-Jul",
+            "24-Jul",
+            "28-Jul",
+          ],
+          datasets: [
+            {
+              label: "Death",
+              backgroundColor: "rgb(255, 0, 0)",
+              borderColor: "rgb(255, 99, 132)",
+              borderWidth: 3,
+              // hoverBackgroundColor: 'rgb(200, 0, 0)',
+              data: [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                2,
+                1,
+                3,
+                0,
+                2,
+                3,
+                3,
+                2,
+                0,
+                0,
+                0,
+                6,
+                0,
+                5,
+                5,
+                3,
+                0,
+                0,
+                0,
+                3,
+                0,
+                5,
+              ],
+            },
+            {
+              label: "Confirmed case",
+              backgroundColor: "rgb(255, 255, 0)",
+              borderColor: "rgb(255, 0, 132)",
+              borderWidth: 3,
+              data: [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                6,
+                0,
+                5,
+                0,
+                0,
+                7,
+                4,
+                10,
+                5,
+                7,
+                18,
+                2,
+                22,
+                20,
+                10,
+                105,
+                20,
+                63,
+                64,
+                18,
+                23,
+                17,
+                15,
+                15,
+                15,
+                16,
+                7,
+                7,
+              ],
+            },
+          ],
+        },
+
+        // Configuration options go here
+        options: {
+          tooltips: {
+            mode: "index",
+          },
+          scales: {
+            xAxes: [
+              {
+                stacked: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "Dates",
+                },
+                ticks: {
+                  fontColor: "black",
+                  // fontSize: 13,
+                  // stepSize: 1,
+                  // beginAtZero: true
+                },
+              },
+            ],
+            yAxes: [
+              {
+                stacked: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "Number Of Cases",
+                },
+                ticks: {
+                  fontColor: "black",
+                  // fontSize: 13,
+                  // stepSize: 1,
+                  // beginAtZero: true
+                },
+              },
+            ],
+          },
+        },
+      });
+    </script>
+
+    <script>
+      var ctx = document.getElementById("call_update").getContext("2d");
+      var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: "bar",
+
+        // The data for our dataset
+        data: {
+          labels: [
+            "25/03/20",
+            "01/04/20",
+            "08/04/20",
+            "15/04/20",
+            "22/04/20",
+            "29/04/20",
+            "06/05/20",
+            "13/05/20",
+            "20/05/20",
+            "27/05/20",
+            "03/06/20",
+            "10/06/20",
+            "17/06/20",
+            "24/06/20",
+            "01/07/20",
+            "08/07/20",
+            "15/07/20",
+            "22/07/20",
+            "29/07/20",
+          ],
+          datasets: [
+            {
+              label: "Calls on Sensitization and Education",
+              backgroundColor: "#17a2b8",
+              borderColor: "rgb(255, 99, 132)",
+              borderWidth: 3,
+              data: [
+                4,
+                11,
+                14,
+                24,
+                33,
+                27,
+                18,
+                30,
+                27,
+                14,
+                17,
+                16,
+                10,
+                8,
+                12,
+                27,
+                10,
+                8,
+                22,
+                15,
+                12,
+                7,
+                10,
+                4,
+                10,
+                9,
+                3,
+                10,
+                2,
+                5,
+                3,
+                6,
+                6,
+                3,
+                6,
+                6,
+                3,
+                4,
+                2,
+                4,
+                2,
+                5,
+                4,
+                4,
+                4,
+                2,
+                2,
+                4,
+                3,
+                3,
+                3,
+                5,
+                5,
+                3,
+                4,
+                9,
+                2,
+                4,
+                6,
+                0,
+                2,
+                2,
+                5,
+                3,
+                3,
+                2,
+                3,
+                5,
+                3,
+                4,
+                4,
+                1,
+                6,
+                3,
+                3,
+                5,
+                6,
+                4,
+                0,
+                3,
+                2,
+                3,
+                2,
+                5,
+                6,
+                4,
+                2,
+                2,
+                9,
+                7,
+                10,
+                4,
+                2,
+                10,
+                3,
+                7,
+                7,
+                2,
+                7,
+                5,
+                8,
+                4,
+                8,
+                8,
+                3,
+                6,
+                3,
+                1,
+                3,
+                0,
+                1,
+                0,
+                1,
+                1,
+                3,
+                3,
+                3,
+                1,
+                1,
+                5,
+                1,
+                1,
+                1,
+                0,
+                4,
+                2,
+                1,
+              ],
+            },
+            {
+              label: "Calls on Case Report",
+              backgroundColor: "#964B00",
+              borderColor: "rgb(255, 0, 132)",
+              borderWidth: 3,
+              data: [
+                99,
+                160,
+                188,
+                201,
+                173,
+                98,
+                179,
+                297,
+                235,
+                189,
+                113,
+                83,
+                112,
+                117,
+                161,
+                241,
+                163,
+                188,
+                158,
+                177,
+                338,
+                305,
+                171,
+                144,
+                113,
+                96,
+                93,
+                97,
+                108,
+                72,
+                82,
+                68,
+                84,
+                100,
+                190,
+                144,
+                74,
+                81,
+                75,
+                42,
+                62,
+                72,
+                47,
+                51,
+                61,
+                34,
+                49,
+                44,
+                35,
+                33,
+                31,
+                38,
+                45,
+                42,
+                50,
+                54,
+                53,
+                43,
+                35,
+                42,
+                29,
+                41,
+                46,
+                27,
+                56,
+                29,
+                43,
+                15,
+                24,
+                30,
+                45,
+                23,
+                40,
+                28,
+                24,
+                36,
+                41,
+                24,
+                31,
+                42,
+                44,
+                19,
+                28,
+                26,
+                37,
+                33,
+                23,
+                29,
+                26,
+                34,
+                32,
+                26,
+                16,
+                25,
+                20,
+                27,
+                27,
+                15,
+                22,
+                34,
+                33,
+                23,
+                20,
+                36,
+                34,
+                39,
+                37,
+                26,
+                15,
+                20,
+                20,
+                32,
+                34,
+                28,
+                28,
+                30,
+                40,
+                13,
+                25,
+                8,
+                16,
+                21,
+                10,
+                22,
+                16,
+                15,
+                23,
+                10,
+              ],
+            },
+          ],
+        },
+
+        // Configuration options go here
+        options: {
+          tooltips: {
+            mode: "index",
+          },
+          scales: {
+            xAxes: [
+              {
+                stacked: true,
+                ticks: {
+                  fontColor: "black",
+                  // fontSize: 13,
+                  // stepSize: 1,
+                  // beginAtZero: true
+                },
+                scaleLabel: {
+                  display: true,
+                  labelString: "Total calls received",
+                  fontColor: "black",
+                },
+              },
+            ],
+            yAxes: [
+              {
+                stacked: true,
+                ticks: {
+                  fontColor: "black",
+                  // fontSize: 13,
+                  // stepSize: 1,
+                  // beginAtZero: true
+                },
+              },
+            ],
+          },
+          responsive: true,
+          // maintainAspectRatio: false,
+          legend: { position: "bottom" },
+        },
+      });
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./indexNavBar.js"></script>
+    <script src="javascripts/navBar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+#myID { 
+    text-align: center;
+    font-style: inherit;
+}
+h5, .head, .total, .head2, .head3, .total2{
+    color: white;
+}
+
+.head, .head2, .total, .head3, .total2{
+    background-color: rgb(100, 145, 230);
+
+}
+
+footer > h5{
+    color: rgb(100, 145, 230);
+}
+
+td.anni{
+    background-color: rgb(245, 179, 98);
+}
+td.box, tr.change{
+    background-color: whitesmoke;
+}
+.total, .total2, .dst, .dst1{
+    font-weight: bold;
+}
+#headings{ 
+    background-color: rgb(99, 168, 236);
+}
+.txt1, .txt2{
+    background-color: rgb(99, 168, 236);
+    color: white;
+    border: royalblue;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+#num, #num2{
+    color: rgb(247, 104, 104);
+    font-size: bold;
+    padding-top: 30px;
+    margin: 15px;
+
+}
+
+
+
+#para{
+    font-style: italic;
+    font-size: 5;
+    margin: 30px;
+
+}
+
+#chart_div{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200%;
+    background-color: steelblue;
+    opacity: 100;
+}
+tbody.right{
+    text-align: left;
+}
+
+
+.table {
+    margin-bottom: 50px;
+}
+.td1, .td2, .td3, .td4, .td5, .td6, .td7, .td8, .td9, .td10, .td11, .td12{
+    background-color: lightsalmon;
+}
+#id1, #id2, #id3, #id4, #id5, #id6 {
+    background-color: rgb(141, 248, 141);
+}
+#id7, #id8, #id9, #id10, #id11, #id12 {
+    background-color: rgb(247, 104, 104);
+}
+#asaba, #delsuth, #care, #myID1, #myID2, #myID3, #myID7, #myID8, #myID9, .id4, .id5, .id6, .row1, .row3, .row5{
+    background-color: rgb(100, 172, 245);
+}
+#federal, #warri, #facilities, #myID4, #myID5, #myID6, .id1, .id2, .id3, .id7, .id8, .id9, .row2, .row4, .row6{
+    background-color: lightskyblue;
+}
+.style, .style2, .style3, .style4, .style5{
+    background-color: white;
+    margin: 50px;
+    padding: 25px;
+}
+.style6{
+    background-color: skyblue;
+}
+.aniocha, .control1, .control2, .control3, .control4, .control5, .control7, .south, .aniocha2, .control8, .control9, .control10, .control11, .control13{
+background-color: rgb(245, 179, 98);
+}
+.control6, .control12, .bomadi6, .burutu6, .ethiope6, .west6, .ika6, .south6, .isoko6, .isok6, .ndokwa6, .ndo6, .okpe6, .oshimili6, .oshi6, .sapele6, .udu6, .ugheli6, .ugh6, .uvwie6, .ukwani6, .war6{
+    background-color: rgb(98, 241, 98);
+}
+.bomadi, .bomadi1, .bomadi2, .bomadi3, .bomadi4, .bomadi5, .bomadi7 {
+    background-color:  rgb(245, 179, 98);
+}
+.burutu, .burutu1, .burutu2, .burutu3, .burutu4, .burutu5, .burutu7 {
+    background-color:  rgb(245, 179, 98);
+}
+.ethiope, .ethiope1, .ethiope2, .ethiope3, .ethiope4, .ethiope7{
+    background-color:  rgb(245, 179, 98);
+} 
+.ethiope5, .ika5, .south5, .ndo5, .oshimili5, .oshi5, .sapele5, .udu5, .ugheli5, .ugh5, .uvwie5, .ukwani5, .war5{
+    background-color:  rgb(245, 179, 98);
+}
+.west, .west1, .west2, .west3, .west4, .west5, .west7 {
+    background-color:  rgb(245, 179, 98);
+}
+.ika, .ika1, .ika2, .ika3, .ika4, .ika7 {
+    background-color:  rgb(245, 179, 98);
+}
+.south, .south1, .south2, .south3, .south4, .south7{
+    background-color:  rgb(245, 179, 98);
+}
+.isoko, .isoko1, .isoko2, .isoko3, .isoko4, .isoko5, .isoko7{
+    background-color:  rgb(245, 179, 98);
+}
+.isok, .isok1, .isok2, .isok3, .isok4, .isok5, .isok7{
+    background-color:  rgb(245, 179, 98);
+}
+.ndokwa, .ndokwa1, .ndokwa2, .ndokwa3, .ndokwa4, .ndokwa5, .ndokwa7 {
+    background-color:  rgb(245, 179, 98);
+}
+.ndo, .ndo1, .ndo2, .ndo3, .ndo4, .ndo7 {
+    background-color:  rgb(245, 179, 98);
+}
+.okpe, .okpe1, .okpe2, .okpe3, .okpe4, .okpe5, .okpe7 {
+    background-color:  rgb(245, 179, 98);
+}
+.oshimili, .oshimili1, .oshimili2, .oshimili3, .oshimili4, .oshimili7{
+    background-color:  rgb(245, 179, 98);
+}
+.oshi, .oshi1, .oshi2, .oshi3, .oshi4, .oshi7{
+    background-color:  rgb(245, 179, 98);
+}
+.patani, .patani1, .patani2, .patani3, .patani4, .patani5, .patani6, .patani7{
+    background-color:  rgb(245, 179, 98);
+} 
+.sapele, .sapele1, .sapele2, .sapele3, .sapele4, .sapele7{
+    background-color:  rgb(245, 179, 98);
+}
+.udu, .udu1, .udu2, .udu3, .udu4, .udu7{
+    background-color:  rgb(245, 179, 98);
+}
+.ukwani, .ukwani1, .ukwani2, .ukwani3, .ukwani4, .ukwani7{
+    background-color:  rgb(245, 179, 98);
+}
+.ugheli, .ugheli1, .ugheli2, .ugheli3, .ugheli4, .ugheli7{
+    background-color:  rgb(245, 179, 98);
+}
+.ugh, .ugh1, .ugh2, .ugh3, .ugh4, .ugh7{
+    background-color:  rgb(245, 179, 98);
+}
+.uvwie, .uvwie1, .uvwie2, .uvwie3, .uvwie4, .uvwie7{
+    background-color:  rgb(245, 179, 98);
+}
+.warri, .warri1, .warri2, .warri3, .warri4, .warri5, .warri6, .warri7, .warr, .warr1, .warr2, .warr3, .warr4, .warr5, .warr6, .warr7{
+    background-color: rgb(214, 110, 35);
+}
+.war, .war1, .war2, .war3, .war4, .war7{
+    background-color:  rgb(245, 179, 98);
+}

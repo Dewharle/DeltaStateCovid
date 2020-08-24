@@ -1,0 +1,47 @@
+
+h5{
+  font-size: 1.1rem
+}
+
+.main-section {
+  min-height: 68vh;
+}
+
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
+  grid-gap: 2rem;
+}
+
+.light-Blue-bg {
+  background: #155fa0;
+}
+
+.orrange2 {
+  border: 1px solid #e91e63;
+}
+
+.orrange1{
+    border: 1px solid #ef6c00
+}
+
+.purp2 {
+  border: 1px solid #ff1374;
+}
+
+.green1 {
+  border: 1px solid #00bfa5;
+}
+
+.grey2 {
+  border: 1px solid #ffc400;
+}
+
+.brown2 {
+  border: 1px solid #00c853;
+}
+
+.font-size {
+  font-size: 1.1rem;
+  font-weight: 500;
+}

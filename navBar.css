@@ -1,0 +1,87 @@
+nav {
+  width: 100%;
+  padding: 10px;
+  margin: auto 0;
+  background: #007bff;
+  height: 60px;
+  min-height: 60px;
+  box-shadow: 0 0 40px #222;
+}
+
+nav > div {
+  display: flex;
+}
+
+.active{
+    color: red
+}
+
+.nav-div2:hover, .nav-div a:hover{
+border-radius: 3px;
+background: #2125294d;
+margin-right: 2px;
+color: white;
+}
+
+.nav-div a,
+.dropdownMenu {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-align: left;
+  font-weight: 500;
+}
+
+.dropdown {
+  display: adsolute;
+}
+
+.dropdownMenu::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  color: white;
+}
+
+.dropdown .menuList {
+  position: relative;
+  bottom: -1px;
+  color: black;
+  border-radius: 3px;
+  border: 1px solid #80808026;
+  background: white;
+  display: none;
+  padding: 10px;
+  z-index: 10000;
+}
+
+.show {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.menuList a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+
+.menuList a:hover {
+  display: block;
+  color: black;
+  background: #80808026;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 580px) {
+  nav {
+    height: 100px;
+  }
+}
